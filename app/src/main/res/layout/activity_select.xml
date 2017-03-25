@@ -7,28 +7,66 @@
     tools:context="id.sch.smktelkom_mlg.project2.xirpl301040633.bermainbersamaarjun.SelectActivity">
 
     <FrameLayout
+        android:id="@+id/frameLayout"
         android:layout_width="256dp"
-        android:layout_height="128dp"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true">
 
-        <at.markushi.ui.CircleButton
-            android:id="@+id/sinaubutton"
-            android:layout_width="128dp"
-            android:layout_height="128dp"
-            android:layout_gravity="left"
-            android:src="@drawable/ic_play_arrow_black_24dp"
-            app:cb_color="#8b4513"
-            app:cb_pressedRingWidth="16dp" />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
 
-        <at.markushi.ui.CircleButton
-            android:id="@+id/nyanyibutton"
-            android:layout_width="128dp"
-            android:layout_height="128dp"
-            android:layout_gravity="right"
-            android:src="@drawable/ic_play_arrow_black_24dp"
-            app:cb_color="#8b4513"
-            app:cb_pressedRingWidth="16dp" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/nyanyibutton"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:src="@drawable/ic_music_note_black_24dp"
+                    app:cb_color="#8b4513"
+                    app:cb_pressedRingWidth="16dp" />
+
+                <TextView
+                    android:id="@+id/textViewNyanyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nyanyibutton"
+                    android:layout_centerHorizontal="true"
+                    android:text="Nyanyi" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/sinaubutton"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:src="@drawable/ic_library_books_black_24dp"
+                    app:cb_color="#8b4513"
+                    app:cb_pressedRingWidth="16dp" />
+
+                <TextView
+                    android:id="@+id/textViewSinau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sinaubutton"
+                    android:layout_centerHorizontal="true"
+                    android:text="Sinau" />
+            </RelativeLayout>
+        </FrameLayout>
+
     </FrameLayout>
 
 </RelativeLayout>
