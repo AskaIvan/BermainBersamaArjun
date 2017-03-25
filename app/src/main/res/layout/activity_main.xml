@@ -18,12 +18,4 @@
         app:cb_color="#8b4513"
         app:cb_pressedRingWidth="16dp" />
 
-    <FrameLayout
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
-
 </RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sch.smktelkom_mlg.project2.xirpl301040633.bermainbersamaarjun.SelectActivity">
+
+    <FrameLayout
+        android:layout_width="256dp"
+        android:layout_height="128dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/sinaubutton"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            app:cb_color="#8b4513"
+            app:cb_pressedRingWidth="16dp" />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/nyanyibutton"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            app:cb_color="#8b4513"
+            app:cb_pressedRingWidth="16dp" />
+    </FrameLayout>
+
+</RelativeLayout>
