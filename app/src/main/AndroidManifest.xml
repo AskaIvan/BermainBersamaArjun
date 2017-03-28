@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name="id.sch.smktelkom_mlg.project2.xirpl301040633.bermainbersamaarjun.WelcomeActivity">
+        <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,12 +21,13 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_welcome"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
-            android:name="id.sch.smktelkom_mlg.project2.xirpl301040633.bermainbersamaarjun.Main2Activity"
+            android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SelectActivity" />
+        <activity android:name=".ButtonSelectActivity" />
     </application>
 
 </manifest>
