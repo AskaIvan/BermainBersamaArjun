@@ -21,10 +21,10 @@
             app:srcCompat="@drawable/a" />
 
         <TextView
-            android:id="@+id/ejaan"
+            android:id="@+id/eja"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/imageView4"
+            android:layout_below="@+id/imageView"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="128dp"
             android:text="Apple"

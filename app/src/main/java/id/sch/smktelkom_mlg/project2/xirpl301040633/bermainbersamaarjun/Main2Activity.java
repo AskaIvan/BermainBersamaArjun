@@ -1,6 +1,5 @@
 package id.sch.smktelkom_mlg.project2.xirpl301040633.bermainbersamaarjun;
 
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,12 +14,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import id.sch.smktelkom_mlg.project2.xirpl301040633.bermainbersamaarjun.model.Data;
 
 public class Main2Activity extends AppCompatActivity {
+
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -61,11 +59,6 @@ public class Main2Activity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Data data = (Data) getIntent().getSerializableExtra(ButtonSelectActivity.DATA);
-        ImageView ivFoto = (ImageView) findViewById(R.id.ImageView);
-        ivFoto.setImageURI(Uri.parse(data.foto));
-        TextView ejaannya = (TextView) findViewById(R.id.place_detail);
-        ejaannya.setText(data.ejaan);
 
     }
 

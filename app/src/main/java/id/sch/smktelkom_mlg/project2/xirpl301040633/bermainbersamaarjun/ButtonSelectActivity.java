@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+
 public class ButtonSelectActivity extends AppCompatActivity {
-    public static final String DATA = "data";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,9 +33,6 @@ public class ButtonSelectActivity extends AppCompatActivity {
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            if (id == "A") {
-
-                            }
                             startActivity(new Intent(ButtonSelectActivity.this, Main2Activity.class));
                         }
                     });
