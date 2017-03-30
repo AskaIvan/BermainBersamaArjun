@@ -1,5 +1,6 @@
 package id.sch.smktelkom_mlg.project2.xirpl301040633.bermainbersamaarjun;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,7 +15,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import id.sch.smktelkom_mlg.project2.xirpl301040633.bermainbersamaarjun.model.Data;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -57,6 +61,11 @@ public class Main2Activity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        Data data = (Data) getIntent().getSerializableExtra(ButtonSelectActivity.DATA);
+        ImageView ivFoto = (ImageView) findViewById(R.id.ImageView);
+        ivFoto.setImageURI(Uri.parse(data.foto));
+        TextView ejaannya = (TextView) findViewById(R.id.place_detail);
+        ejaannya.setText(data.ejaan);
 
     }
 
@@ -132,8 +141,14 @@ public class Main2Activity extends AppCompatActivity {
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
-
-            return PlaceholderFragment.newInstance(position + 1);
+            if (position == 1) {
+                return new FragmentDua();
+            } else if (position == 0) {
+                return new FragmentSatu();
+            } else if (position == 2) {
+                return new FragmentTiga();
+            } else
+                return PlaceholderFragment.newInstance(position + 1);
         }
 
         @Override
