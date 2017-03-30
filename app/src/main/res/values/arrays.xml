@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="song">
+        <item>Abang Tukang Bakso</item>
+        <item>Anak Gembala</item>
+        <item>Balonku</item>
+        <item>Becak</item>
+        <item>Kupu-kupu</item>
+    </string-array>
+    <string-array name="song_desc">
+        <item>Ciptaan : Momo Agil</item>
+        <item>Ciptaan : AT. Mahmud</item>
+        <item>Ciptaan : AT. Mahmud</item>
+        <item>Ciptaan : Ibu Sud</item>
+        <item>Ciptaan : Ibu Sud</item>
+    </string-array>
+    <string-array name="song_details">
+        <item>Abang tukang bakso <br />
+              Mari mari sini <br />
+              Aku mau beli<br /><br />
+
+              Abang tukang bakso<br />
+              Cepatlah kemari<br />
+              sudah tak tahan lagi<br /><br />
+
+              Satu mangkuk saja<br />
+              dua ratus perak<br />
+              yang banyak baksonya<br /><br />
+
+              Tidak pake saos<br />
+              Tidak pake sambel<br />
+              Juga tidak pake kol<br /><br />
+
+              Bakso bulat<br />
+              seperti bola pingpong<br />
+              kalo lewat membikin perut kosong<br />
+              Jadi anak jangan kau suka bohong<br />
+              Kalo bohong digigit kambing ompong</item>
+        <item>Aku adalah anak gembala<br />
+              Selalu riang serta gembira<br />
+              Karena aku senang bekerja<br />
+              Tak pernah malas ataupun lengah<br /><br />
+
+              Tralala la la la la<br />
+              tralala la la la la la la<br /><br />
+
+              Setiap hariku bawa ternak<br />
+              Ke padang rumput,dikaki bukit<br />
+              Rumputnya hijau,suburdan banyak<br />
+              Ternakku makan tak pernah sdikit<br />
+              Tralala.......</item>
+        <item>Balonku ada lima<br />
+              Rupa-rupa warnanya<br />
+              Hijau, kuning, kelabu<br /><br />
+
+              Merah muda dan biru<br />
+              Meletus balon hijau DOR!<br />
+              Hatiku sangat kacau<br />
+
+              Balonku tinggal empat<br />
+              Kupegang erat-erat</item>
+        <item>Saya mau tamasya<br />
+              Berkeliling keliling kota<br />
+              Hendak melihat-lihat keramaian yang ada<br /><br />
+
+              Saya panggilkan becakKereta tak berkuda<br />
+              Becak, becak, coba bawa saya<br />
+              Saya duduk sendiri sambil mengangkat kaki<br /><br />
+
+              Melihat dengan asyikKe kanan dan ke kiri<br />
+              Lihat becakku lariBagaikan tak berhenti<br />
+              Becak, becak, jalan hati-hati</item>
+        <item>Kupu-kupu yang lucu<br />
+              kemana engkau terbang<br />
+              hilir mudik mencari<br /><br />
+
+              bunga-bunga yang kembang<br />
+              berayun ayun<br />
+              pada tangkai yang lemah<br /><br />
+
+              tidakkah sayapmu<br />
+              merasa lelah<br />
+              kupu-kupu yang elok<br /><br />
+
+              bolehkah saya serta<br />
+              mencium bunga-bunga<br />
+              yang semerbak baunya<br /><br />
+
+              sambil bersenda<br />
+              semua kauhampiri<br />
+              bolehkah kuturut<br />
+              bersama pergi</item>
+    </string-array>
+    <array name="song_picture">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+    </array>
+
+</resources>
