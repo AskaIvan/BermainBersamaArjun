@@ -21,13 +21,6 @@ public class Main3Activity extends AppCompatActivity implements HotelAdapter.IHo
 
 
     @Override
-    public void doClick(int pos) {
-        Intent intent = new Intent(this, DetailActivity.class);
-        intent.putExtra(HOTEL, mList.get(pos));
-        startActivity(intent);
-    }
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
@@ -64,6 +57,13 @@ public class Main3Activity extends AppCompatActivity implements HotelAdapter.IHo
                     arDetail[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void doClick(int pos) {
+        Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra(HOTEL, mList.get(pos));
+        startActivity(intent);
     }
 
 

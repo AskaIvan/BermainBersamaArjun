@@ -112,5 +112,12 @@
         <item>@drawable/d</item>
         <item>@drawable/e</item>
     </array>
+    <string-array name="song_track">
+        <item>tukang_bakso</item>
+        <item>gembala</item>
+        <item>balonku</item>
+        <item>becak</item>
+        <item>kupu</item>
+    </string-array>
 
 </resources>

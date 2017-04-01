@@ -18,4 +18,6 @@ public class Hotel implements Serializable {
         this.detail = detail;
         this.foto = foto;
     }
+
+
 }

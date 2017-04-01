@@ -15,7 +15,6 @@ public class DetailActivity extends AppCompatActivity {
 
     private static final String TAG = "LivecycleTag";
     MediaPlayer mediaPlayer;
-    MediaPlayer mediaPlayer2;
     ImageButton play;
     ImageButton pause;
     ImageButton stop;
@@ -36,9 +35,18 @@ public class DetailActivity extends AppCompatActivity {
         tvLagu.setText(hotel.judul);
         TextView tvDetail = (TextView) findViewById(R.id.song_detail);
         tvDetail.setText(hotel.deskripsi + "\n\n" + hotel.detail);
-
-
-        mediaPlayer = MediaPlayer.create(getApplicationContext().getApplicationContext(), R.raw.tukang_bakso);
+        //mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.tukang_bakso);
+        if (hotel.judul.equals("Abang Tukang Bakso")) {
+            mediaPlayer = MediaPlayer.create(this, R.raw.tukang_bakso);
+        } else if (hotel.judul.equals("Anak Gembala")) {
+            mediaPlayer = MediaPlayer.create(this, R.raw.gembala);
+        } else if (hotel.judul.equals("Balonku")) {
+            mediaPlayer = MediaPlayer.create(this, R.raw.balonku);
+        } else if (hotel.judul.equals("Becak")) {
+            mediaPlayer = MediaPlayer.create(this, R.raw.becak);
+        } else if (hotel.judul.equals("Kupu-kupu")) {
+            mediaPlayer = MediaPlayer.create(this, R.raw.kupu);
+        }
 
         play = (ImageButton) findViewById(R.id.imageButton_play);
         pause = (ImageButton) findViewById(R.id.imageButton_pause);

@@ -22,7 +22,14 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_welcome"
             android:theme="@style/AppTheme" />
-        <activity android:name=".TryActivity"></activity>
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
