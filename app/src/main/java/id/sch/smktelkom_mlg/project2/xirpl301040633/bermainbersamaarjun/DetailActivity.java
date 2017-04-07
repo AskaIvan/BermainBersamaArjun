@@ -70,8 +70,7 @@ public class DetailActivity extends AppCompatActivity {
         stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(DetailActivity.this, R.raw.tukang_bakso);
+                mediaPlayer.reset();
             }
         });
 
