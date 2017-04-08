@@ -20,11 +20,6 @@
         <item>Balonku</item>
         <item>Becak</item>
         <item>Kupu-kupu</item>
-        <item>Tik tik tik bunyi hujan</item>
-        <item>Topi saya bundar</item>
-        <item>Pelangi</item>
-        <item>Layang-layangku</item>
-        <item>Naik delman</item>
     </string-array>
     <string-array name="song_desc">
         <item>Ciptaan : Momo Agil</item>
@@ -32,28 +27,23 @@
         <item>Ciptaan : AT. Mahmud</item>
         <item>Ciptaan : Ibu Sud</item>
         <item>Ciptaan : Ibu Sud</item>
-        <item>Ciptaan : Ibu Sud</item>
-        <item>Ciptaan : Pak Kasur</item>
-        <item>Ciptaan : AT. Mahmud</item>
-        <item>Ciptaan : AT. Mahmud</item>
-        <item>Ciptaan : Ibu Sud</item>
     </string-array>
     <string-array name="song_details">
         <item>Abang tukang bakso \n
               Mari mari sini \n
-              Aku mau beli\n \n
+              Aku mau beli \n \n
 
-              Abang tukang bakso\n
-              Cepatlah kemari\n
-              sudah tak tahan lagi\n \n
+              Abang tukang bakso \n
+              Cepatlah kemari \n
+              sudah tak tahan lagi\n\n
 
               Satu mangkuk saja\n
               dua ratus perak\n
-              yang banyak baksonya\n \n
+              yang banyak baksonya\n\n
 
               Tidak pake saos\n
               Tidak pake sambel\n
-              Juga tidak pake kol\n \n
+              Juga tidak pake kol\n\n
 
               Bakso bulat\n
               seperti bola pingpong\n
@@ -63,10 +53,10 @@
         <item>Aku adalah anak gembala\n
               Selalu riang serta gembira\n
               Karena aku senang bekerja\n
-              Tak pernah malas ataupun lengah\n \n
+              Tak pernah malas ataupun lengah\n\n
 
               Tralala la la la la\n
-              tralala la la la la la la\n \n
+              tralala la la la la la la\n\n
 
               Setiap hariku bawa ternak\n
               Ke padang rumput,dikaki bukit\n
@@ -75,40 +65,40 @@
               Tralala.......</item>
         <item>Balonku ada lima\n
               Rupa-rupa warnanya\n
-              Hijau, kuning, kelabu\n \n
+              Hijau, kuning, kelabu\n\n
 
               Merah muda dan biru\n
               Meletus balon hijau DOR!\n
-              Hatiku sangat kacau\n
+              Hatiku sangat kacau\n\n
 
               Balonku tinggal empat\n
               Kupegang erat-erat</item>
-        <item>Saya mau tamasya\n
+        <item> Saya mau tamasya\n
               Berkeliling keliling kota\n
-              Hendak melihat-lihat keramaian yang ada\n \n
+              Hendak melihat-lihat keramaian yang ada\n\n
 
               Saya panggilkan becakKereta tak berkuda\n
               Becak, becak, coba bawa saya\n
-              Saya duduk sendiri sambil mengangkat kaki\n \n
+              Saya duduk sendiri sambil mengangkat kaki\n\n
 
               Melihat dengan asyikKe kanan dan ke kiri\n
               Lihat becakku lariBagaikan tak berhenti\n
-              Becak, becak, jalan hati-hati</item>
+              Becak, becak, jalan hati-hati </item>
         <item>Kupu-kupu yang lucu\n
               kemana engkau terbang\n
-              hilir mudik mencari\n \n
+              hilir mudik mencari\n\n
 
               bunga-bunga yang kembang\n
               berayun ayun\n
-              pada tangkai yang lemah\n \n
+              pada tangkai yang lemah\n\n
 
               tidakkah sayapmu\n
               merasa lelah\n
-              kupu-kupu yang elok\n \n
+              kupu-kupu yang elok\n\n
 
               bolehkah saya serta\n
               mencium bunga-bunga\n
-              yang semerbak baunya\n \n
+              yang semerbak baunya\n\n
 
               sambil bersenda\n
               semua kauhampiri\n
@@ -156,8 +146,8 @@
             Tuk-tik-tak-tik-tuk tik-tak-tik-tuk tik-tak-tik-tuk\n
             Tuk-tik-tak-tik-tuk tik-tak suara s'patu kuda
         </item>
-    </string-array>
 
+    </string-array>
     <array name="song_picture">
         <item>@drawable/a</item>
         <item>@drawable/b</item>
