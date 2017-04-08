@@ -46,7 +46,18 @@ public class DetailActivity extends AppCompatActivity {
             mediaPlayer = MediaPlayer.create(this, R.raw.becak);
         } else if (hotel.judul.equals("Kupu-kupu")) {
             mediaPlayer = MediaPlayer.create(this, R.raw.kupu);
+        } else if (hotel.judul.equals("Tik tik tik bunyi hujan")) {
+            mediaPlayer = MediaPlayer.create(this, R.raw.hujan);
+        } else if (hotel.judul.equals("Topi saya bundar")) {
+            mediaPlayer = MediaPlayer.create(this, R.raw.topi);
+        } else if (hotel.judul.equals("Pelangi")) {
+            mediaPlayer = MediaPlayer.create(this, R.raw.pelangi);
+        } else if (hotel.judul.equals("Layang-layangku")) {
+            mediaPlayer = MediaPlayer.create(this, R.raw.layang);
+        } else if (hotel.judul.equals("Naik delman")) {
+            mediaPlayer = MediaPlayer.create(this, R.raw.delman);
         }
+
 
         play = (ImageButton) findViewById(R.id.imageButton_play);
         pause = (ImageButton) findViewById(R.id.imageButton_pause);
