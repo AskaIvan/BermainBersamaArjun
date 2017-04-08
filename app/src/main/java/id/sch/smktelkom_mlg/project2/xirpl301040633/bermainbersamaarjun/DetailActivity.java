@@ -46,15 +46,15 @@ public class DetailActivity extends AppCompatActivity {
             mediaPlayer = MediaPlayer.create(this, R.raw.becak);
         } else if (hotel.judul.equals("Kupu-kupu")) {
             mediaPlayer = MediaPlayer.create(this, R.raw.kupu);
-        } else if (hotel.judul.equals("Tik tik tik bunyi hujan")) {
+        } else if (hotel.judul.equals("Hujan Rintik-Rintik")) {
             mediaPlayer = MediaPlayer.create(this, R.raw.hujan);
-        } else if (hotel.judul.equals("Topi saya bundar")) {
+        } else if (hotel.judul.equals("Topi Saya Bundar")) {
             mediaPlayer = MediaPlayer.create(this, R.raw.topi);
-        } else if (hotel.judul.equals("Pelangi")) {
+        } else if (hotel.judul.equals("Pelangi-Pelangi")) {
             mediaPlayer = MediaPlayer.create(this, R.raw.pelangi);
-        } else if (hotel.judul.equals("Layang-layangku")) {
+        } else if (hotel.judul.equals("Layang-Layang")) {
             mediaPlayer = MediaPlayer.create(this, R.raw.layang);
-        } else if (hotel.judul.equals("Naik delman")) {
+        } else if (hotel.judul.equals("Naik Delman")) {
             mediaPlayer = MediaPlayer.create(this, R.raw.delman);
         }
 

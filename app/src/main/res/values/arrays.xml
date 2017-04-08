@@ -20,12 +20,22 @@
         <item>Balonku</item>
         <item>Becak</item>
         <item>Kupu-kupu</item>
+        <item>Hujan Rintik-Rintik</item>
+        <item>Topi Saya Bundar</item>
+        <item>Pelangi-Pelangi</item>
+        <item>Layang-Layang</item>
+        <item>Naik Delman</item>
     </string-array>
     <string-array name="song_desc">
         <item>Ciptaan : Momo Agil</item>
         <item>Ciptaan : AT. Mahmud</item>
         <item>Ciptaan : AT. Mahmud</item>
         <item>Ciptaan : Ibu Sud</item>
+        <item>Ciptaan : Ibu Sud</item>
+        <item>Ciptaan : AT. Mahmud</item>
+        <item>Ciptaan : Pak Kasur</item>
+        <item>Ciptaan : AT. Mahmud</item>
+        <item>Ciptaan : AT. Mahmud</item>
         <item>Ciptaan : Ibu Sud</item>
     </string-array>
     <string-array name="song_details">
@@ -138,13 +148,13 @@
             Hatiku riang dan senang
         </item>
         <item>
-            Pada Hari Minggu ku turut ayah ke kota\n
+            Pada hari Minggu ku turut ayah ke kota\n
             Naik delman istimewa ku duduk di muka\n
-            Ku duduk samping pak kusir yang sedang bekerja\n
+            Ku duduk samping Pak Kusir yang sedang bekerja\n
             Mengendarai kuda supaya baik jalannya\n
             \n
             Tuk-tik-tak-tik-tuk tik-tak-tik-tuk tik-tak-tik-tuk\n
-            Tuk-tik-tak-tik-tuk tik-tak suara s'patu kuda
+            Tuk-tik-tak-tik-tuk tik-tak suara spatu kuda\n
         </item>
 
     </string-array>
@@ -167,6 +177,11 @@
         <item>balonku</item>
         <item>becak</item>
         <item>kupu</item>
+        <item>hujan</item>
+        <item>topi</item>
+        <item>pelangi</item>
+        <item>layang</item>
+        <item>delman</item>
     </string-array>
 
 </resources>
